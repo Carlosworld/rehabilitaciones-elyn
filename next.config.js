@@ -1,10 +1,6 @@
 module.exports = {
+  distDir: 'build',
     images: {
       domains: ['images.ctfassets.net'],
     },
-  }
-
-  
-  module.exports = {
-    distDir: 'build',
   }
