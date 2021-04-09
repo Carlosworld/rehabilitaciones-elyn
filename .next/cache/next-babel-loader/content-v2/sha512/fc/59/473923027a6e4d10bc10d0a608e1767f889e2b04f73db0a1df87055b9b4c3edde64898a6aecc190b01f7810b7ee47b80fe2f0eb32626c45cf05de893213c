@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport Form from \"../components/Form/Form\";\nimport Contacto from \"../components/Contacto/Contacto\";\nexport default function Home() {\n  return __jsx(React.Fragment, null, __jsx(Form, null), __jsx(Contacto, null));\n}","map":null,"metadata":{},"sourceType":"module"}
