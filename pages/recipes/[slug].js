@@ -1,6 +1,6 @@
 import { createClient } from 'contentful'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 
 
@@ -47,11 +47,11 @@ export default function RecipeDetails({ recipe }) {
             <div className="container">
                 <div>
                     <div className="banner">
-                        <Image
+                        {/* <Image
                             src={'https:' + featuredImage.fields.file.url}
                             width={featuredImage.fields.file.details.image.width}
                             height={featuredImage.fields.file.details.image.height}
-                        />
+                        /> */}
                         <h2>{title}</h2>
                     </div>
 
