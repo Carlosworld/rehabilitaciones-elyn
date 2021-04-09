@@ -3,3 +3,7 @@ module.exports = {
       domains: ['images.ctfassets.net'],
     },
   }
+
+  module.exports = {
+    distDir: 'build',
+  }
