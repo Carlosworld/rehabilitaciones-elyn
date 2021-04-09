@@ -6,7 +6,7 @@ export default function PageTitleBox() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h2></h2>
+            <h2>Agenda tu cita con nosotros.</h2>
             <ul className="breadcrumb">
               <li className="breadcrumb-item">
                 <a href="contact-us">Contactanos</a>

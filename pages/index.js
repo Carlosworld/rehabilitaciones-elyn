@@ -5,13 +5,16 @@ import Mapa from "../components/Mapa/Mapa";
 import Contacto from "../components/Contacto/Contacto";
 import Servicios from "../components/Servicios/Servicios";
 import PageTitleBox from "../components/PageTitleBox/PageTitleBox";
+import Info from "../components/Info/Info";
+// import RecipeCard from "../components/RecipeCard/RecipeCard";
 
 
 export default function Home() {
   return (
     <>
       <HeroSlider />
-      <ShopCategories />
+      <Info />
+      {/* <ShopCategories /> */}
       <PageTitleBox />
       <Servicios />
       {/* <FeaturedProducts /> */}
