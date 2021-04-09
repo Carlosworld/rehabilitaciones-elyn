@@ -12,12 +12,18 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-widget">
-                  <h4></h4>
+                  <h4>SOBRE FisioMax</h4>
                   <p>
-                   <strong></strong> <strong></strong>
-                    <br />
-                    <br />
-                  <strong></strong>
+                  {/* <strong>Dirección.</strong><br /> */}
+                    Nicolas Bravo 341. centro, Cd. Lázaro Cárdenas, Mich, Mx.
+                  </p>
+                  <p>
+                     <strong>Horarios de atención.</strong><br />
+                    <strong>Lunes a viernes de</strong>{" "}7:00am a 8:00pm.<br />
+                    <strong>Sábados de</strong>{" "}7:00am a 2:00pm.
+                  </p>
+                  <p>
+                  <strong>Teléfonos</strong>: (753) 537 3761, (753) 139 7277 y (753) 540 5810
                   </p>
                   
                   <ul>
@@ -67,8 +73,8 @@ export default function Footer() {
               </div>
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-link">
-                  <h4></h4>
-                  {/* <div class="fb-page" data-href="https://www.facebook.com/bybconsultingtraining/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/bybconsultingtraining/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bybconsultingtraining/">B&amp;B Consulting Training</a></blockquote></div> */}
+                  <h4>ÚLTIMAS PUBLICACIONES</h4>
+                  <div class="fb-page" data-href="https://www.facebook.com/elynrehabfisica" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/elynrehabfisica" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/elynrehabfisica">Elyn Rehabilitación Física</a></blockquote></div>
                   {/* <ul>
                     <li>
                       <a href="#">About Us</a>
@@ -92,41 +98,51 @@ export default function Footer() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 col-sm-12">
-                <div className="footer-link-contact">
-                  <h4></h4>
+                <div className="footer-widget">
+                  <h4>Siguenos en redes sociales</h4>
+                  
                   <ul>
                     <li>
-                      <p>
-                        {/* <i className="fas fa-map-marker-alt"></i> */}
-                         <br/> 
-                         <br />
-                         
-                        <br /> {" "}
-                      </p>
+                      <a href="#">
+                        <i className="fab fa-facebook" aria-hidden="true"></i>
+                      </a>
                     </li>
                     <li>
-                      <p>
-                        {/* <i className="fas fa-phone-square"></i>{" "} */}
-                        <a href="tel:5566103088"></a>
-                      </p>
+                      {/* <a href="#">
+                        <i className="fab fa-twitter" aria-hidden="true"></i>
+                      </a> */}
                     </li>
                     <li>
-                      <p>
-                        {/* <i className="fas fa-envelope"></i>Email:{" "} */}
-                        <a href="mailto:contacto@bybconsultingtraining.com">
-                          {/* contacto@bybconsultingtraining.com */}
-                        </a>
-                      </p>
+                      {/* <a href="#">
+                        <i className="fab fa-linkedin" aria-hidden="true"></i>
+                      </a> */}
                     </li>
-                    {/* <li>
-                      <p>
-                        <i className="fas fa-paper-plane"></i>Buzón:{" "}
-                        <a href="complaints">
-                          Quejas y sugerencias
-                        </a>
-                      </p>
-                    </li> */}
-                    
+                    <li>
+                      {/* <a href="#">
+                        <i
+                          className="fab fa-google-plus"
+                          aria-hidden="true"
+                        ></i>
+                      </a> */}
+                    </li>
+                    <li>
+                      {/* <a href="#">
+                        <i className="fa fa-rss" aria-hidden="true"></i>
+                      </a> */}
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i
+                          className="fab fa-instagram"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-whatsapp" aria-hidden="true"></i>
+                      </a>
+                    </li>
                   </ul>
                   
                 </div>
