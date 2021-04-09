@@ -8,8 +8,7 @@
     "start": "next start -H 0.0.0.0 -p $PORT",
     "start:dev": "next start",
     "start:prod": "next start -p 80",
-    "export": "next build && next export",
-    "postbuild": "next-on-netlify"
+    "export": "next build && next export"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.2",
