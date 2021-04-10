@@ -27,7 +27,7 @@ const Info = () => {
             <div className="col-lg-6">
                 <div className="banner-frame">
                     <img
-                    className=""
+                    className="img-fluid"
                     src="images/01.png"
                     alt=""
                     />

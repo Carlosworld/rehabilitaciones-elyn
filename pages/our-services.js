@@ -36,7 +36,7 @@ export default function OurServices({ recipes }) {
                 <style jsx>{`
                   .recipe-list {
                     display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-columns: 1fr;
                     grid-gap: 30px 60px;
                   }
 
