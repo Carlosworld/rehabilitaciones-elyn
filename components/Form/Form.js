@@ -10,21 +10,22 @@ export default function ContactUs() {
                         <h2 className="noo-sh-title">Contactanos</h2>
                         <form>
                             <div className="form-group">
-                                <label for="exampleFormControlInput1"><strong>Email address</strong></label>
-                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                                <label for="exampleFormControlInput1"><strong>Nombre</strong></label>
+                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="nombre completo" />
                             </div>
                             <div className="form-group">
-                                <label for="exampleFormControlInput1"><strong>Email address</strong></label>
-                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                                <label for="exampleFormControlInput1"><strong>Teléfono</strong></label>
+                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Teléfono" />
                             </div>
                             <div className="form-group">
-                                <label for="exampleFormControlInput1"><strong>Email address</strong></label>
+                                <label for="exampleFormControlInput1"><strong>Correo electrónico</strong></label>
                                 <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                             </div>               
                             <div className="form-group">
                                 <label for="exampleFormControlTextarea1"><strong>Example textarea</strong></label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                             </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
                     </div>
                 </div>
