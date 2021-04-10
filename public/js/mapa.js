@@ -1,10 +1,10 @@
 if (document.getElementById('mapa')) {
 
-    var map = L.map('mapa').setView([19.4952781,-99.044259], 8);
+    var map = L.map('mapa').setView([17.960890, -102.195890], 17);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    L.marker([19.4952781,-99.044259]).addTo(map).bindPopup('ByB Consulting Training').openPopup();
+    L.marker([17.960890, -102.195890]).addTo(map).bindPopup('FisioMax Rehabilitación Física').openPopup();
     // .bindTooltip('GDLWebCamp 2018, Boletos ya disponibles')
     // .openTooltip();
 }
