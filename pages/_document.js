@@ -15,14 +15,14 @@ class MyDocument extends Document {
 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <title>Consulting-Training</title>
+          <title>FisioMax-Rehabilitación física</title>
           <meta name="keywords" content="" />
           <meta name="description" content="" />
           <meta name="author" content="" />
 
           <link
             rel="shortcut icon"
-            href="images/logos/title.png"
+            href="images/logos/02.png"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="/images/nosotros/title.png" />

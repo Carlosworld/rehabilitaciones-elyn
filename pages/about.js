@@ -5,6 +5,7 @@ import Skeleton from "react-loading-skeleton";
 import PageTitleBox from "../components/PageTitleBox/PageTitleBox";
 import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
 import Acreditacion from "../components/Acreditacion/Acreditacion"
+import Servicios from "../components/Servicios/Servicios"
 //import OurTeam from "";
 
 const OurTeam = dynamic(
@@ -26,16 +27,17 @@ export default function About() {
               <div className="banner-frame">
                 <img
                   className="img-thumbnail img-fluid"
-                  src="images/nosotros/11.jpg"
+                  src="images/03.jpg"
                   alt=""
                 />
               </div>
             </div>
             <div className="col-lg-6">
               <h2 className="noo-sh-title">
-                <span></span>
+                <span>Nosotros</span>
               </h2>
               <p>
+              Nos dedicamos a dar alternativas de rehabilitación a la persona que le falte movilidad a su cuerpo y que requiera de terapia física para el mejor funcionamiento de sus partes del cuerpo que necesite terapia, que tenga padecimientos en su salud o bien por accidentes u otra discapacidad.
               </p>
               <p>
                 
@@ -51,7 +53,7 @@ export default function About() {
               </div>
             </div> */}
           </div>
-          <div className="row my-5">
+          {/* <div className="row my-5">
             <div className="col-lg-6">
                 <h2 className="noo-sh-title">
                 <span></span>
@@ -72,7 +74,7 @@ export default function About() {
                   
                 </p>
               </div>
-            </div>
+            </div> */}
           {/* <div className="row my-5">
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
@@ -103,7 +105,7 @@ export default function About() {
             </div>
           </div> */}
           {/* <OurTeam /> */}
-          {/* <Acreditacion /> */}
+          <Servicios />
         </div>
       </div>
     </>

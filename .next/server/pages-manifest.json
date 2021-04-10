@@ -2,10 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
   "/about": "pages/about.js",
-  "/our-services": "pages/our-services.js",
-  "/contact-us": "pages/contact-us.js",
-  "/recipes/[slug]": "pages/recipes/[slug].js"
+  "/": "pages/index.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
 }
