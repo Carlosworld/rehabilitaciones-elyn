@@ -22,7 +22,7 @@ export default function ContactUs() {
                                 <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                             </div>               
                             <div className="form-group">
-                                <label for="exampleFormControlTextarea1"><strong>Example textarea</strong></label>
+                                <label for="exampleFormControlTextarea1"><strong>Escriba su mensaje</strong></label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
