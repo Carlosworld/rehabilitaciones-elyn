@@ -3,11 +3,11 @@ import React from 'react';
 const Contacto = () => {
     return (
         <div>
-            <section class="contenedor seccion">
-                <h2 class="noo-sh-title">Contáctanos</h2>
+              <section class="contenedor seccion">
+                <h2 class="fw-300 centrar-texto">Contáctanos</h2>
                 {/* <!-- <div id="mapa" class="mapa"></div> --> */}
                 <p>Dirección: Nicolás Bravo 341, Centro, Cd. L. Cárdenas, Mich., MX.</p>
-                <p>Teléfonos: (753) 537 3761, (753) 139 7277 y (753) 540 5810</p>
+                <p>Teléfonos: +52 (753) 537 3761, +52 (753) 139 7277 y +52 (753) 540 5810. </p>
                 <p>Correo: <a href="mailto:info@fisiomaxrehabilitacion.com">info@fisiomaxrehabilitacion.com</a></p>
 
                 {/* <!-- <nav class="redes-sociales">
