@@ -105,22 +105,22 @@ export default function Footer() {
                   <h4>Siguenos en redes sociales</h4>
                   
                   <ul>
-                    {/* <li>
+                    <li>
                       <p>
                         <i className="fas fa-globe"></i>
-                        <a href="https://globalmexy.com/">
-                          www.globalmexy.com
+                        <a href="https://crecepsicologos.com/">
+                          www.crecepsicologos.com
                         </a>
                       </p>
-                    </li> */}
-                    {/* <li>
+                    </li>
+                    <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
-                        <a href="https://contabilizandote.com">
-                          www.contabilizandote.com
+                        <a href="https://regularizacionclases.com">
+                          www.regularizacionclases.com
                         </a>
                       </p>
-                    </li> */}
+                    </li>
                     {/* <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
